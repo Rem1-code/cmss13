@@ -519,3 +519,19 @@
 	desc = "The shell on this cassette is broken, it still looks like it'll work, though!"
 	icon_state = "cassette_worstmap"
 	side1_icon = "cassette_worstmap"
+
+//UPP cassettes
+/obj/item/device/cassette_tape/UPPofficial
+	name = "UPP cassette"
+	id = 19
+	desc = "A cassette tape with state sponsored music, personally approved by the chairman. Glory to the UPP!"
+	icon_state = "cassette_worstmap"
+	side1_icon = "cassette_worstmap"
+	songs = list("side1" = list("sound/music/UPP1.ogg",\
+								"sound/music/UPP1.ogg",\
+								"sound/music/UPP1.ogg",\
+								"sound/music/UPP1.ogg"),\
+				"side2" = list("sound/music/UPP1.ogg",\
+								"sound/music/UPP1.ogg",\
+								"sound/music/UPP1.ogg",\
+								"sound/music/UPP1.ogg"))
