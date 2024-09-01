@@ -671,7 +671,7 @@
 
 /obj/structure/sign/calendar
 	name = "wall calendar"
-	desc = "Classic office decoration and a place to stare at maniacally."
+	desc = "A classic office decoration, useful for staring at manically."
 	icon_state = "calendar_civ"
 	var/calendar_faction
 
@@ -690,20 +690,20 @@
 
 /obj/structure/sign/calendar/upp
 	icon_state = "calendar_upp"
-	desc = "Classic office decoration and a place to stare at maniacally, has a UPP logo on it, also all text is in Russian."
+	desc = "A classic office decoration and a place to stare at manically. This one is in russian and has a UPP logo."
 	calendar_faction = FACTION_UPP
 
 /obj/structure/sign/calendar/wy
 	icon_state = "calendar_wy"
-	desc = "Classic office decoration and a place to stare at maniacally, produced by Weyland-Yutani."
+	desc = "A classic office decoration and a place to stare at manically, this one is produced by Weyland-Yutani."
 	calendar_faction = FACTION_WY
 
 /obj/structure/sign/calendar/twe
 	icon_state = "calendar_twe"
-	desc = "Classic office decoration and a place to stare at maniacally, has a pattern resembling a Union Jack on it."
+	desc = "A classic office decoration and a place to stare at manically, this one has a pattern resembling the Union Jack on it."
 	calendar_faction = FACTION_TWE
 
 /obj/structure/sign/calendar/ua
 	icon_state = "calendar_ua"
-	desc = "Classic office decoration and a place to stare at maniacally, has a vertically placed UA flag and some army symbolics."
+	desc = "A classic office decoration and a place to stare at maniacally, this one has a vertically placed UA flag."
 	calendar_faction = FACTION_MARINE

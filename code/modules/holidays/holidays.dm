@@ -72,7 +72,7 @@
 	name = "Orthodox Christmas"
 	begin_day = 5
 	begin_month = JANUARY
-	greet_text = "Have a merry Christmas!"
+	greet_text = "Have a merry orthodox christmas!"
 	end_day = 9
 	holiday_faction = FACTION_UPP
 
@@ -81,21 +81,21 @@
 	begin_day = 12
 	begin_month = JANUARY
 	holiday_faction = FACTION_WY
-	greet_text = "Celebrate a medicine producer who saves lives with their work!"
+	greet_text = "Celebrate a Weyland-Yutani scientist who saves lives with their work!"
 
 /datum/holiday/cleandesk
 	name = "Clean Your Desk Day"
 	begin_day = 13
 	begin_month = JANUARY
 	holiday_faction = FACTION_WY
-	greet_text = "On this day, we must remember the importance of a clean working environment!"
+	greet_text = "On this day, we must all remember the importance of a clean working environment!"
 
 /datum/holiday/australia
 	name = "Australia Day"
 	begin_day = 26
 	begin_month = JANUARY
 	holiday_faction = FACTION_TWE
-	greet_text = "On this day, in the year of 1788, the First Fleet of the Royal Navy landed on the Australian soil and planted the Union flag, thus marking the establishment of Australian colony."
+	greet_text = "On this day, in the year 1788, the First Fleet of the Royal Navy landed on the Australian soil and planted the Union flag, thus marking the establishment of the first colony on Australia, and the day it was born in it's modern form."
 
 // FEBRUARY
 
@@ -104,32 +104,34 @@
 	begin_day = 16
 	begin_month = FEBRUARY
 	holiday_faction = FACTION_WY
-	greet_text = "On this day, we must remember the importance of clear labor laws and transparent bureaucracy!"
+	greet_text = "Corporate affairs would like to remind you we must remember the importance of clear labor laws and transparent bureaucracy!"
 
 /datum/holiday/innovation
 	name = "Innovation Day"
-	begin_day = 16
+	begin_day = 23
 	begin_month = FEBRUARY
 	holiday_faction = FACTION_WY
-	greet_text = "On this day, we celebrate the importance of numerous innovations that we've made and will make in the future!"
+	greet_text = "Today, we celebrate the importance of numerous innovations that Weyland-Yutani has made and will continue to make in the future!"
 
 /datum/holiday/japan
-	name = "National Science Day"
-	begin_day = 28
+	name = "National Foundation Day"
+	begin_day = 11
 	begin_month = FEBRUARY
-	holiday_faction = FACTION_WY
-	greet_text = "Celebrated in Japanese parts of the TWE, marking the day of foundation of Japanese nation."
+	holiday_faction = FACTION_TWE
+	greet_text = "Celebrated in the Japanese parts of the TWE, National Foundation Day, also known as Kenkoku Kinen no Hi, celebrates the foundation of the Japanese nation."
 
 /datum/holiday/valentines
 	name = VALENTINES
 	begin_day = 13
 	end_day = 15
 	begin_month = FEBRUARY
+	greet_text = "Happy Valentines day!"
+
 
 /datum/holiday/armyday
 	name = "Defender of the Fatherland Day"
 	begin_day = 23
-	greet_text = "Was originally the day celebrating Soviet Army in USSR, but later morphed into more generalized Men's Day in Russia, and later all across UPP."
+	greet_text = "Was originally the day celebrating the Soviet Army in the USSR, but later morphed into more generalized holiday in Russia, and finally all across the UPP."
 	begin_month = FEBRUARY
 	holiday_faction = FACTION_UPP
 
@@ -139,14 +141,14 @@
 	name = "Employee Appreciation Day"
 	begin_day = 7
 	begin_month = MARCH
-	greet_text = "On this day, we must remember to respect and value our dear employees and workers!"
+	greet_text = "On this day, we commemorate the work ethic of every productive Weyland-Yutani employee!"
 	holiday_faction = FACTION_WY
 
 /datum/holiday/commonwealthday
 	name = "Day of the Empire"
 	begin_day = 10
 	begin_month = MARCH
-	greet_text = "Was originally celebrated as the Commonwealth Day, but was later reformed after foundation of the Three World Empire"
+	greet_text = "Was originally celebrated as the Commonwealth Day, but was later reformed into a national day after foundation of the Three World Empire"
 	holiday_faction = FACTION_TWE
 
 /datum/holiday/holi
@@ -160,6 +162,7 @@
 	name = "St. Patrick's Day"
 	begin_day = 17
 	begin_month = MARCH
+	greet_text = "Happy St. Patrick's Day!"
 
 // APRIL
 
@@ -168,21 +171,13 @@
 	begin_month = APRIL
 	begin_day = 1
 	end_day = 2
-
+greet_text = "April Fools!"
 
 /datum/holiday/spess
 	name = "Cosmonautics Day"
 	begin_day = 12
 	begin_month = APRIL
-	greet_text = "On this day over 600 years ago, Comrade Yuri Gagarin first ventured into space!"
-
-//Information itself is from the combat manual but the date was never stated, i chose the date of when the first CM server was established - 2013, Jun 29
-/datum/holiday/uscm_day
-	name = "Day of the Colonial Marines"
-	begin_day = 20
-	begin_month = APRIL
-	greet_text = "On this day in the year of 2101 the National Security Act was signed, and the United States Colonial Marine Corps were established."
-	holiday_faction = FACTION_MARINE
+	greet_text = "On this day over 300 years ago, Comrade Yuri Gagarin first ventured into space!"
 
 /datum/holiday/tea
 	name = "National Tea Day"
@@ -199,14 +194,14 @@
 	name = "Anzac Day"
 	begin_day = 25
 	begin_month = APRIL
-	begin_month = "TWE holiday celebrated by people from british part of Oceania. Holiday is dedicated to remembrance of the Anzacs at Gallipoli"
+	begin_month = "TWE holiday celebrated by people from Oceania. It's dedicated to remembrance of the ANZAC at Gallipoli"
 	holiday_faction = FACTION_TWE
 
 /datum/holiday/showa
 	name = "Showa Day"
 	begin_day = 29
 	begin_month = APRIL
-	greet_text = "Public holiday in the ethnically Japanese parts of the TWE, honoring the birthday of emperor Hirohito, and historical period associated with him."
+	greet_text = "Public holiday in the Japanese parts of the TWE, honoring the birthday of emperor Hirohito, and the historical period associated with him."
 	holiday_faction = FACTION_TWE
 
 // MAY
@@ -227,6 +222,14 @@
 	name = "Summer Solstice"
 	begin_day = 21
 	begin_month = JUNE
+
+//Information itself is from the combat manual but the date was never stated, i chose the date of when the first CM server was established - 2013, Jun 29
+/datum/holiday/uscm_day
+	name = "Day of the Colonial Marines"
+	begin_day = 29
+	begin_month = JUNE
+	greet_text = "On this day in the year of 2101 the National Security Act was signed, and the United States Colonial Marine Corps were established."
+	holiday_faction = FACTION_MARINE
 
 // JULY
 
@@ -276,7 +279,7 @@
 	greet_text = "Originally celebrating USSR and post Soviet VDV forces, this holiday celebrates UPP KVD paratroopers in their heroic and hazardous job."
 	holiday_faction = FACTION_UPP
 
-
+// it's the hosts birthday lol
 /datum/holiday/monarchday
 	name = "Empress Birthday"
 	begin_day = 7
